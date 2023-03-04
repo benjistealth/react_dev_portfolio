@@ -2,37 +2,37 @@
   {
     "id": 1,
     "name": "Project 1 - Horiseon",
-    "image": "../assets/images/horiseon.png",
+    "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
     "description": "Challenge - To refactor a broken single page website"
   },
   {
     "id": 2,
     "name": "Project 2 - Jakes Eatery",
-    "image": "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131",
+    "image": "https://cdn.futura-sciences.com/sources/images/dossier/773/01-intro-773.jpg",
     "description": "Challenge - To build a page to meet an image spec"
   },
   {
     "id": 3,
     "name": "Project 3 - JS Quiz",
-    "image": "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626",
+    "image": "https://images.freeimages.com/images/previews/ac9/railway-hdr-1361893.jpg",
     "description": "Challenge - To create a webpage with a JS Quiz using local storage"
   },
   {
     "id": 4,
     "name": "Project 4 - Day Scheduler",
-    "image": "https://s-media-cache-ak0.pinimg.com/originals/fe/32/49/fe32495d45283cd6860ae122f0aeaad9.png",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2016/02/5718897981_10faa45ac3_b-640x624.jpg",
     "description": "Challenge - A day scheduler to save your days activities"
   },
   {
     "id": 5,
     "name": "Project 5 - Recipe Grabber",
-    "image": "https://vignette4.wikia.nocookie.net/vsbattles/images/3/39/Courage-0.png/revision/latest?cb=20160719055423",
+    "image": "https://media.istockphoto.com/id/1038727610/photo/liquid-shapes-abstract-holographic-3d-wavy-background.jpg?s=612x612&w=0&k=20&c=OSfb3DuCHkjERNJTpK4GzMN851GhHQA6Evn9DKc-kw4=",
     "description": "Project - A webtool to  grab recipes, images and ingredients from API calls from user search criteria"
   },
   {
     "id": 6,
     "name": "Project 6 - Redme Generator",
-    "image": "https://vignette1.wikia.nocookie.net/doug/images/3/3b/Doug001.gif/revision/latest?cb=20110807170511",
+    "image": "https://thumbs.dreamstime.com/b/tangled-tubes-37578927.jpg",
     "description": "Challenge - A tool to generate an attractive readme.md file from cmdline questions"
   }
 ]
