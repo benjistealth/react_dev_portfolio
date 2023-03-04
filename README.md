@@ -1,4 +1,4 @@
-# Team Profile Generator
+# React Developer Portfolio
                        
 [![License: MIT](https://img.shields.io/badge/License-MIT-orange.svg)](https://opensource.org/licenses/MIT)
 
@@ -38,12 +38,12 @@
 
 ## Installation
 
- - NA - Please take a look at the deployed application on Gihub Pages here - 
+ - NA - Please take a look and click around the deployed application on Gihub Pages here - 
 
 
 ## Usage
 
-- Please take a look at the deployed application on Gihub Pages here - 
+- Please take a look and click around the deployed application on Gihub Pages here - 
 
 
 ## Contribute
