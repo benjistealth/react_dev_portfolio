@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "page": "Project1",
     "name": "Project 1 - Horiseon",
     "alt": "Image of Horiseon logo",
     "image": "https://raw.githubusercontent.com/benjistealth/benji_bootstrap_portfolio/main/assets/images/horiseon2.png",
@@ -9,6 +10,7 @@
   },
   {
     "id": 2,
+    "page": "Project2",
     "name": "Project 2 - Jakes Eatery",
     "alt": "Image of Jakes Eatery Logo",
     "image": "https://raw.githubusercontent.com/benjistealth/benji_bootstrap_portfolio/main/assets/images/jakes-logo.png",
@@ -17,6 +19,7 @@
   },
   {
     "id": 3,
+    "page": "Project3",
     "name": "Project 3 - JS Quiz",
     "alt": "Image of JS Qiz loading screen",
     "image": "https://raw.githubusercontent.com/benjistealth/benji_bootstrap_portfolio/main/assets/images/js_quiz.png",
@@ -25,6 +28,7 @@
   },
   {
     "id": 4,
+    "page": "Project4",
     "name": "Project 4 - Day Scheduler",
     "alt": "Image of work day scheduler page",
     "image": "https://raw.githubusercontent.com/benjistealth/benji_bootstrap_portfolio/main/assets/images/scheduler.png",
@@ -33,6 +37,7 @@
   },
   {
     "id": 5,
+    "page": "Project5",
     "name": "Project 5 - Recipe Grabber",
     "alt": "Image of Recipe Grabber loading page",
     "image": "https://raw.githubusercontent.com/benjistealth/benji_bootstrap_portfolio/main/assets/images/recipe_grabber.png",
@@ -41,6 +46,7 @@
   },
   {
     "id": 6,
+    "page": "Project7",
     "name": "Project 6 - Redme Generator",
     "alt": "Image of generated readme page",
     "image": "https://raw.githubusercontent.com/benjistealth/benji_bootstrap_portfolio/main/assets/images/readme_generator.png",
