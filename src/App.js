@@ -1,18 +1,20 @@
 import React, { useState } from 'react';
 import ProjCard from './components/ProjCard/ProjCard';
-import CardWrapper from './components/CardWrapper';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import characters from './friends.json';
+import CardWrapper from './components/CardWrapper/CardWrapper';
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
+import projects from './components/projects.json';
 
 function App() {
-  const [projects, setFriends] = useState(characters); // initially, characters is an array
+  const [project, selectFunction] = useState(projects); // initially, characters is an array
   
   function selectProject(projId) {
     console.log(new Date(), "Project Selected", projId);
-    //when the project is selected, the project page will be shown
+    //when the project is selected, the project page will be shown 
+    //where you can click through to the project itself
+    //the project page will have some text talking about the project intentions
 
-    setFriends(projects.filter(f => f.id !== projId));
+    // selectProject(projects.filter(f => f.id !== projId));
   }
 
   return (
@@ -21,11 +23,10 @@ function App() {
     <CardWrapper>
       
       
-      {projects.map(f => <ProjCard key={f.name} name={f.name}
+      {projects.map(f => <ProjCard key={f.id} name={f.name}
         image={f.image}
-        occupation={f.occupation}
-        location={f.location}
-        removeFunction={  () => { selectProject(f.id) }     } />)} {/* make this a select function and go to a new page for each project?*/}
+        description={f.description}
+        selectFunction={  () => { selectProject(f.id) }     } />)} {/* make this a select function and go to a new page for each project?*/}
    
     </CardWrapper>
     <Footer></Footer>  

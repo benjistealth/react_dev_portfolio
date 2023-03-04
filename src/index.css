@@ -21,10 +21,10 @@ html, body, #root {
 }
 
 .nav-tabs .nav-item .nav-link {
-  background-color: #00ff62 !important;
+  background-color: #aef8a3 !important;
   color: #FFF;
 }
 
 .nav-tabs .nav-item .nav-link.active {
-  color: #22ff00 !important;
+  color: #aef8a3 !important;
 }

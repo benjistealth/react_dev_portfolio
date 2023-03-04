@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Project 1 - Horiseon",
+    "image": "../assets/images/horiseon.png",
+    "description": "Challenge - To refactor a broken single page website"
+  },
+  {
+    "id": 2,
+    "name": "Project 2 - Jakes Eatery",
+    "image": "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131",
+    "description": "Challenge - To build a page to meet an image spec"
+  },
+  {
+    "id": 3,
+    "name": "Project 3 - JS Quiz",
+    "image": "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626",
+    "description": "Challenge - To create a webpage with a JS Quiz using local storage"
+  },
+  {
+    "id": 4,
+    "name": "Project 4 - Day Scheduler",
+    "image": "https://s-media-cache-ak0.pinimg.com/originals/fe/32/49/fe32495d45283cd6860ae122f0aeaad9.png",
+    "description": "Challenge - A day scheduler to save your days activities"
+  },
+  {
+    "id": 5,
+    "name": "Project 5 - Recipe Grabber",
+    "image": "https://vignette4.wikia.nocookie.net/vsbattles/images/3/39/Courage-0.png/revision/latest?cb=20160719055423",
+    "description": "Project - A webtool to  grab recipes, images and ingredients from API calls from user search criteria"
+  },
+  {
+    "id": 6,
+    "name": "Project 6 - Redme Generator",
+    "image": "https://vignette1.wikia.nocookie.net/doug/images/3/3b/Doug001.gif/revision/latest?cb=20110807170511",
+    "description": "Challenge - A tool to generate an attractive readme.md file from cmdline questions"
+  }
+]

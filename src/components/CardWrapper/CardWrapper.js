@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.css";
+import "./CardWrapper.css";
 
 function CardWrapper(props) {
   return <div className="wrapper">{props.children}</div>;
