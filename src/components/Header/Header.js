@@ -7,7 +7,7 @@ function Header() {
     <>
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark container-fluid">
             <header className="header container-fluid">
-  <a className="navbar-brand" href="#">LinkHere</a>
+  <a className="navbar-brand" href="#footer">About</a>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
   </button>
@@ -15,25 +15,25 @@ function Header() {
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
     <ul className="navbar-nav mr-auto">
       <li className="nav-item active">
-        <a className="navbar-brand" href="#">Home <span className="sr-only">(current)</span></a>
+        <a className="navbar-brand" href="#skills">Skills<span className="sr-only">(current)</span></a>
       </li>
       <li className="nav-item">
-        <a className="navbar-brand" href="#">Link</a>
+        <a className="navbar-brand" href="#footer">Contact</a>
       </li>
       <li className="nav-item dropdown">
         <a className="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-          Dropdown
+          More...
         </a>
         <div className="dropdown-menu">
-          <a className="dropdown-item" href="#">Action</a>
-          <a className="dropdown-item" href="#">Another action</a>
+          <a className="dropdown-item" href="#footer">About</a>
+          <a className="dropdown-item" href="#footer">Contact</a>
           <div className="dropdown-divider"></div>
-          <a className="dropdown-item" href="#">Something else here</a>
+          <a className="dropdown-item" href="#footer">Skills</a>
         </div>
       </li>
     </ul>
     <form className="form-inline my-2 my-lg-0">
-      <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
+      <input className="form-control mr-sm-2" type="search" placeholder="Dummy Search" aria-label="Search"/>
       <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
     </form>
   </div>
@@ -41,7 +41,7 @@ function Header() {
       
     </header>
     </nav>
-    <h1 className="text-center">BenjiPortfolioMofo</h1>
+    <h1 className="text-center heading">Benji Project Portfolio</h1>
     </>
   );
 }

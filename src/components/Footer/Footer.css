@@ -11,24 +11,19 @@ h1 {
 color: rgb(26, 239, 51) !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
 .tabtn:hover {
   background: black !important;
   color: white !important;
+  box-shadow: 0 6px 40px #15e231, 0 6px 15px #999;
 }
-/* .navbar-navlink {
-  height: 30px;
-  color:#0de229 !important;
-} */
 
 .tabtn {
   background: #189c03 !important;
   color: #130b0b !important;
   width: 10rem;
-  margin: 1rem; 
   text-align: center;
+}
+
+.tabrow .tabtn .active {
+  background: #130b0b;
 }

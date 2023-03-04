@@ -1,9 +1,11 @@
 import React from "react";
+import { Link, Route, Routes } from 'react-router-dom';
+import Home from './Home';
 
-function Project2() {
+function Project1() {
   return (
     <div>
-      <h1>Project 2</h1>
+      <h1>Project 1</h1>
       <p>
         Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer gravida dui
         mauris, ut interdum nunc egestas sed. Aenean sed mollis diam. Nunc aliquet risus ac finibus
@@ -21,4 +23,4 @@ function Project2() {
   );
 }
 
-export default Project2;
+export default Project1;

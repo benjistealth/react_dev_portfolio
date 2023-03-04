@@ -7,15 +7,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1 {
-color: blue !important;
+.heading {
+color: rgb(14, 14, 16) !important;
+font-weight: bold;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
 
-/* .tab-pane {
-  color: black;
-} */
