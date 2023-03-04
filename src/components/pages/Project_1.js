@@ -11,6 +11,12 @@ function Project1() {
         semper imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus in. Sed
         rhoncus mollis diam, sit amet facilisis lectus blandit at.
       </p>
+      <Link to="home" role="button" className="btn btn-link">
+        Back to Home Page
+      </Link>
+      <Routes>
+        <Route path="home" element={<Home />} />
+      </Routes>
     </div>
   );
 }

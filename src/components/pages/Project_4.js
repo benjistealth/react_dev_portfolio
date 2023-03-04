@@ -1,9 +1,9 @@
 import React from "react";
 
-function Home() {
+function Project4() {
   return (
     <div>
-      <h1>Home Page</h1>
+      <h1>Project 4</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque velit, lobortis ut magna
         varius, blandit rhoncus sem. Morbi lacinia nisi ac dui fermentum, sed luctus urna tincidunt.
@@ -14,8 +14,14 @@ function Home() {
         consequat. Vestibulum vitae lorem tortor. In elementum ultricies tempus. Interdum et
         malesuada fames ac ante ipsum primis in faucibus.
       </p>
+      <Link to="home" role="button" className="btn btn-link">
+        Back to Home Page
+      </Link>
+      <Routes>
+        <Route path="home" element={<Home />} />
+      </Routes>
     </div>
   );
 }
 
-export default Home;
+export default Project4;
