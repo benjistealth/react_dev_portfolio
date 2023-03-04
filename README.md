@@ -64,7 +64,7 @@
 
 ## Technologies
 
- -  ![License](https://img.shields.io/badge/Lang-Node.js-orange) ![License](https://img.shields.io/badge/Lang-JavaScript-purple) ![License](https://img.shields.io/badge/Lang-Markdown-green) ![License](https://img.shields.io/badge/Lang-HTML-yellow)
+ -  ![License](https://img.shields.io/badge/Lang-Node.js-orange) ![License](https://img.shields.io/badge/Lang-JavaScript-purple) ![License](https://img.shields.io/badge/Lang-Markdown-green) ![License](https://img.shields.io/badge/Lang-HTML-yellow) ![License](https://img.shields.io/badge/Lang-CSS-blue) ![License](https://img.shields.io/badge/Lang-Bootstrap.js-pink) ![License](https://img.shields.io/badge/Lang-React-red)
 
 ## Tests
  - How to test the project:
