@@ -5,13 +5,13 @@ import "./Footer.css";
 function Footer() {
   return (
   <footer>
-    <div className="container-fluid text-white justify-content-center" id="footer">
+    <div className="container-fluid justify-content-center" id="footer">
       {/* <!-- changed the native color to dark using inbuilt CSS from Bootstrap :-) --> */}
-      <nav className="nav justify-content-center nav-pills navbar-dark bg-dark text-white"/>
-        <nav className="nav justify-content-center nav-pills flex-md-row text-white">
-          <a className="nav-link active" href="#skills" data-toggle="tab">Skills</a>
-          <a className="nav-link" href="#contact" data-toggle="tab">Contact</a>
-          <a className="nav-link" href="#more" data-toggle="tab">More About</a>
+      <nav className="nav tabrow justify-content-center navbar-dark bg-dark"/>
+        <nav className="nav justify-content-center tabrow nav-pills flex-md-row">
+          <a className="nav-link active tabtn m-1" href="#skills" data-toggle="tab">Skills</a>
+          <a className="nav-link tabtn m-1" href="#contact" data-toggle="tab">Contact</a>
+          <a className="nav-link tabtn m-1" href="#more" data-toggle="tab">More About</a>
         </nav>
 
         {/* <!-- added py-5 and px-5 for vertical and horizontal padding to tabbed content --> */}

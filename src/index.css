@@ -14,17 +14,3 @@ html, body, #root {
   margin: 0;
   height: 100%;
 }
-
-.navbar-navlink {
-  height: 30px;
-  color:#15e231;
-}
-
-.nav-tabs .nav-item .nav-link {
-  background-color: #aef8a3 !important;
-  color: #FFF;
-}
-
-.nav-tabs .nav-item .nav-link.active {
-  color: #aef8a3 !important;
-}

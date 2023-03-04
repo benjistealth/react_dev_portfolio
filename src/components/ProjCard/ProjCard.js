@@ -1,12 +1,13 @@
 import React from "react";
 import "./ProjCard.css";
+// import "../babelconfig";
 
 function ProjCard(props) {
+  // const image = require(`${props.image}`);
   return (
     <div className="card col-3 selectCard" onClick={props.selectFunction}>
       <div className="img-container">
         <img alt={props.alt} src={props.image} />
-        {/* <img src={require(`${props.image}`)} alt={props.name} /> */}
       </div>
       <div className="content">
         <ul>

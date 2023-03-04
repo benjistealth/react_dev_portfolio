@@ -8,7 +8,7 @@ body {
 }
 
 h1 {
-color: blue !important;
+color: rgb(26, 239, 51) !important;
 }
 
 code {
@@ -16,6 +16,19 @@ code {
     monospace;
 }
 
-/* .tab-pane {
-  color: black;
+.tabtn:hover {
+  background: black !important;
+  color: white !important;
+}
+/* .navbar-navlink {
+  height: 30px;
+  color:#0de229 !important;
 } */
+
+.tabtn {
+  background: #189c03 !important;
+  color: #130b0b !important;
+  width: 10rem;
+  margin: 1rem; 
+  text-align: center;
+}
