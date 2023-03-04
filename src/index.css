@@ -1,0 +1,30 @@
+
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background: #2e3539;
+  color:#15e231;
+  /* background-color: black; */
+  /* display: flex;
+  flex-direction: column; */
+}
+
+html, body, #root {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+.navbar-navlink {
+  height: 30px;
+  color:#15e231;
+}
+
+.nav-tabs .nav-item .nav-link {
+  background-color: #00ff62 !important;
+  color: #FFF;
+}
+
+.nav-tabs .nav-item .nav-link.active {
+  color: #22ff00 !important;
+}
