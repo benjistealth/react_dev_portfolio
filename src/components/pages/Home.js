@@ -21,7 +21,7 @@ function Home(props) {
     }
 
     return (
-        <div>
+        <div className="container">
             <CardWrapper>
 
                 {projects.map(f => <ProjCard key={f.id} name={f.name}

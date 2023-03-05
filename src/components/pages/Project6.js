@@ -1,21 +1,44 @@
 import React from "react";
 import { Link, Route, Routes } from 'react-router-dom';
 import Home from './Home';
+import "./ProjectPages.css";
 
-function Project6() {
+
+function Project1() {
+  
   return (
     <div>
-      <h1 className="text-center">Project 6</h1>
-      <p>
-        Lorem ipsum dolor sit amet, est ut enim consequat. Nostrum fastidii partiendo sed ne, no
-        mutat ludus aperiri mea, per in choro dolorem electram. Invidunt reprimique assueverit quo
-        ne, eruditi graecis pro ut. Usu ut diceret scaevola evertitur, appareat voluptatibus ad vel.
+         {/* {projects.map(f => <Project1 key={f.id} name={f.name} image={f.image} description={f.description}/>)} */}
+      <h1>Horiseon</h1>
+      <div className="img-container">
+      {/* <a href="https://en.wikipedia.org/wiki/Cat"><img src="https:.jpg" alt=" a field."/></a> */}
+      <a href="https://benjistealth.github.io/benji_refactoring_challenge_module1/"><img className="rounded mx-auto d-block" alt={"Horiseon logo"} src={"https://raw.githubusercontent.com/benjistealth/benji_bootstrap_portfolio/main/assets/images/horiseon2.png"}/></a>
+        
+      </div>
+      <div className="content">
+        <ul>
+          <li>
+            <strong>Project:</strong> {"Readme.md Generator"}
+          </li>
+          <li>
+            <strong>Description:</strong> {"Challenge - To create a Node.js app to create a stylist readme from cmdline text entry"}
+          </li>
+          </ul>
+          <p className="description">
+        Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer gravida dui
+        mauris, ut interdum nunc egestas sed. Aenean sed mollis diam. Nunc aliquet risus ac finibus
+        porta. Nam quis arcu non lectus tincidunt fermentum. Suspendisse aliquet orci porta quam
+        semper imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus in. Sed
+        rhoncus mollis diam, sit amet facilisis lectus blandit at.
       </p>
-      <Link to="home" role="button" className="btn btn-link">
+       
+      </div>
+
+      <Link to="/">
         Back to Home Page
       </Link>
       <Routes>
-        <Route path="home" element={<Home />} />
+        <Route path="Home" element={<Home />} />
       </Routes>
     </div>
   );

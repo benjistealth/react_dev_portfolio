@@ -1,0 +1,26 @@
+
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background: #2e3539;
+    color:#15e231;
+  }
+  
+  html, body, #root {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .description {
+    margin-left: 15rem;
+    margin-right: 15rem;
+  }
+
+  /* img {
+
+  } */

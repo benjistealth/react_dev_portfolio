@@ -1,6 +1,7 @@
 import React from "react";
 import "./ProjCard.css";
 
+
 function ProjCard(props) {
   return (
     <div className="card col-3 selectCard" onClick={props.selectFunction}>
@@ -15,7 +16,7 @@ function ProjCard(props) {
           <li>
             <strong>Description:</strong> {props.description}
           </li>
-        </ul>
+        </ul> 
       </div>
     </div>
   );
