@@ -9,6 +9,12 @@ function Project5() {
   return (
     <div>
       <h1>Recipe Grabber</h1>
+      <Link to="/">
+      <button className="btn btn-back"></button>
+      </Link>
+      <Routes>
+        <Route path="Home" element={<Home />} />
+      </Routes>
       <div className="img-container">
         <a href="https://splwdev.github.io/Recipe-Grabber/"><img className="rounded mx-auto d-block project-img" alt={"Recipe Grabber loading page"} src={"https://raw.githubusercontent.com/benjistealth/benji_bootstrap_portfolio/main/assets/images/recipe_grabber.png"} /></a>
       </div>

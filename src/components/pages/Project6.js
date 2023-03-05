@@ -9,6 +9,12 @@ function Project6() {
   return (
     <div>
       <h1>Repo Readme Generator</h1>
+      <Link to="/">
+      <button className="btn btn-back"></button>
+      </Link>
+      <Routes>
+        <Route path="Home" element={<Home />} />
+      </Routes>
       <div className="img-container">
       <a href="https://github.com/benjistealth/repo_readme_generator"><img className="rounded mx-auto d-block project-img" alt={"generated readme page"} src={"https://raw.githubusercontent.com/benjistealth/benji_bootstrap_portfolio/main/assets/images/readme_generator.png"}/></a>
         

@@ -9,6 +9,12 @@ function Project2() {
   return (
     <div>
       <h1>Jakes Eatery</h1>
+      <Link to="/">
+      <button className="btn btn-back"></button>
+      </Link>
+      <Routes>
+        <Route path="Home" element={<Home />} />
+      </Routes>
       <div className="img-container">
       <a href="https://benjistealth.github.io/benji_jakes_eatery/"><img className="rounded mx-auto d-block project-img" alt={"Jakes Eatery Restaurant logo"} src={"https://raw.githubusercontent.com/benjistealth/benji_bootstrap_portfolio/main/assets/images/jakes-logo.png"}/></a>
         

@@ -9,6 +9,12 @@ function Project1() {
   return (
     <div>
       <h1>Horiseon</h1>
+      <Link to="/">
+      <button className="btn btn-back"></button>
+      </Link>
+      <Routes>
+        <Route path="Home" element={<Home />} />
+      </Routes>
       <div className="img-container">
       <a href="https://benjistealth.github.io/benji_refactoring_challenge_module1/"><img className="rounded mx-auto d-block project-img" alt={"Horiseon logo"} src={"https://raw.githubusercontent.com/benjistealth/benji_bootstrap_portfolio/main/assets/images/horiseon2.png"}/></a>
         

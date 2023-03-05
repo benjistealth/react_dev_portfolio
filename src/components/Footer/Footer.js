@@ -11,7 +11,7 @@ function Footer() {
         <nav className="nav justify-content-center tabrow nav-pills flex-md-row">
           <a className="nav-link active tabtn m-1" href="#skills" data-toggle="tab">Skills</a>
           <a className="nav-link tabtn m-1" href="#contact" data-toggle="tab">Contact</a>
-          <a className="nav-link tabtn m-1" href="#more" data-toggle="tab">More About</a>
+          <a className="nav-link tabtn m-1" href="#more" data-toggle="tab">About</a>
         </nav>
 
         {/* <!-- added py-5 and px-5 for vertical and horizontal padding to tabbed content --> */}
@@ -37,7 +37,7 @@ function Footer() {
           </div>
 
           <div className="tab-pane" id="more">
-            <h3>More About Me</h3>
+            <h3>About Me</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
               dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
               ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu

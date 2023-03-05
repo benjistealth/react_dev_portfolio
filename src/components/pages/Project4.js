@@ -9,6 +9,12 @@ function Project4() {
   return (
     <div>
       <h1>Day Scheduler</h1>
+      <Link to="/">
+      <button className="btn btn-back"></button>
+      </Link>
+      <Routes>
+        <Route path="Home" element={<Home />} />
+      </Routes>
       <div className="img-container">
         <a href="https://benjistealth.github.io/work_day_scheduler/"><img className="rounded mx-auto d-block project-img" alt={"Day Scheduler loading page"} src={"https://raw.githubusercontent.com/benjistealth/benji_bootstrap_portfolio/main/assets/images/scheduler.png"} /></a>
 
