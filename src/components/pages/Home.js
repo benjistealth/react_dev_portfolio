@@ -1,20 +1,21 @@
-import React from "react";
+// import React from "react";
 import projects from '../projects.json';
 import ProjCard from '../ProjCard/ProjCard';
 import CardWrapper from '../CardWrapper/CardWrapper';
-// import React, { useState } from 'react';
 
-function Home() {
-    // const [project, openProjectPage] = useState(projects); // initially, characters is an array
+import { useNavigate } from "react-router-dom";
 
-    function selectProject(name) {
-       
-        console.log("Project Selected", name);
+
+function Home(props) {
+
+    const navigate = useNavigate();
+    function UseProject(page) {
+        
+        
+        console.log("Project Selected", page);
+        navigate(page);
         //when the project is selected, the project page will be shown 
         //where you can click through to the project itself
-        //   <Routes>
-        //   <Route path={"home"} element={<Home />} />
-        // </Routes>
         
         //the project page will have some text talking about the project intentions
     }
@@ -26,7 +27,7 @@ function Home() {
                 {projects.map(f => <ProjCard key={f.id} name={f.name}
                     image={f.image}
                     description={f.description}
-                    selectFunction={() => { selectProject(f.name) }} />)} {/* make this a select function above and go to a new page for each project?*/}
+                    selectFunction={() => { UseProject(f.page) }} />)} {/* make this a select function above and go to a new page for each project?*/}
 
             </CardWrapper>
         </div>
