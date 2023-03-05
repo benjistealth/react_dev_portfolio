@@ -1,26 +1,48 @@
-
 * {
-    box-sizing: border-box;
-    font-family: sans-serif;
-    background: #2e3539;
-    color:#15e231;
-  }
-  
-  html, body, #root {
-    padding: 0;
-    margin: 0;
-    height: 100%;
-  }
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background: #2e3539;
+  color: #15e231;
+}
 
-  h1 {
-    text-align: center;
-  }
+html,
+body,
+#root {
+  padding: 0;
+  margin: 0;
+  height: auto;
+}
 
-  .description {
-    margin-left: 15rem;
-    margin-right: 15rem;
-  }
+h1 {
+  text-align: center;
+}
 
-  /* img {
+.description {
+  margin-left: 30vw;
+  margin-right: 30vw;
+}
 
-  } */
+.project-img {
+  max-width: 60vw;
+  max-height: 60vh;
+
+}
+
+.project-img:hover {
+  box-shadow: 0 6px 40px #15e231, 0 6px 15px #999;
+  margin-bottom: 3rem;
+}
+
+.btn-back {
+  background-image: URL("../../assets/images/back-button-icon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 6vw;
+  height: 8vh;
+  margin-left: 5vw;
+  border-radius: 25px;
+}
+
+.btn-back:hover {
+  box-shadow: 0 6px 40px #15e231, 0 6px 15px #999;
+}

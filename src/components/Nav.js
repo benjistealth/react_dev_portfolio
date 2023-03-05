@@ -5,13 +5,7 @@ function NavTabs() {
   return (
     <ul className="nav nav-tabs">
       <li className="nav-item">
-        <NavLink
-          to="/"
-          end
-          className={({ isActive }) =>
-            isActive ? 'nav-link active' : 'nav-link'
-          }
-        >
+        <NavLink to="/" end className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}>
           Home
         </NavLink>
       </li>

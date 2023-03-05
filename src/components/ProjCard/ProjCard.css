@@ -5,9 +5,10 @@
 .card {
   background: #2e3539;
   border-radius: 2px;
-  min-height: 325px;
+  min-height: 30vh;
+  max-height: 50vh;
   margin: 1rem;
-  min-width: 325px;
+  min-width: 15vw;
   text-align: left;
 }
 
@@ -40,4 +41,6 @@
 .card > .content > ul > li {
   margin-top: 18px;
 }
+
+
 

@@ -19,7 +19,7 @@ function Home(props) {
         
         //the project page will have some text talking about the project intentions
     }
-
+//className="container"
     return (
         <div className="container">
             <CardWrapper>

@@ -15,7 +15,7 @@ function Footer() {
         </nav>
 
         {/* <!-- added py-5 and px-5 for vertical and horizontal padding to tabbed content --> */}
-        <div className="tab-content py-5 px-5">
+        <div className="tab-content d-none d-lg-block py-5 px-5">
           <div className="tab-pane active" id="skills">
             <h3>Bootcamp Skills</h3>
             <p>The EDX Front End Web Development Bootcamp is a serious course for serious people wanting some serious

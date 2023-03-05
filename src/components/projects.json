@@ -2,8 +2,8 @@
   {
     "id": 1,
     "page": "Project1",
-    "name": "Project 1 - Horiseon",
-    "alt": "Image of Horiseon logo",
+    "name": "Horiseon",
+    "alt": "Horiseon logo",
     "image": "https://raw.githubusercontent.com/benjistealth/benji_bootstrap_portfolio/main/assets/images/horiseon2.png",
     "projurl": "https://benjistealth.github.io/benji_refactoring_challenge_module1/",
     "description": "Challenge - To refactor a broken single page website"
@@ -11,8 +11,8 @@
   {
     "id": 2,
     "page": "Project2",
-    "name": "Project 2 - Jakes Eatery",
-    "alt": "Image of Jakes Eatery Logo",
+    "name": "Jakes Eatery",
+    "alt": "Jakes Eatery Logo",
     "image": "https://raw.githubusercontent.com/benjistealth/benji_bootstrap_portfolio/main/assets/images/jakes-logo.png",
     "projurl": "https://benjistealth.github.io/benji_jakes_eatery/",
     "description": "Challenge - To build a page to meet an image spec"
@@ -20,8 +20,8 @@
   {
     "id": 3,
     "page": "Project3",
-    "name": "Project 3 - JS Quiz",
-    "alt": "Image of JS Qiz loading screen",
+    "name": "JS Quiz",
+    "alt": "JS Qiz loading screen",
     "image": "https://raw.githubusercontent.com/benjistealth/benji_bootstrap_portfolio/main/assets/images/js_quiz.png",
     "projurl": "https://benjistealth.github.io/benji_js_fundamentals_quiz/",
     "description": "Challenge - To create a webpage with a JS Quiz"
@@ -29,8 +29,8 @@
   {
     "id": 4,
     "page": "Project4",
-    "name": "Project 4 - Day Scheduler",
-    "alt": "Image of work day scheduler page",
+    "name": "Day Scheduler",
+    "alt": "work day scheduler page",
     "image": "https://raw.githubusercontent.com/benjistealth/benji_bootstrap_portfolio/main/assets/images/scheduler.png",
     "projurl": "https://benjistealth.github.io/work_day_scheduler/",
     "description": "Challenge - A day scheduler to save your days activities"
@@ -38,8 +38,8 @@
   {
     "id": 5,
     "page": "Project5",
-    "name": "Project 5 - Recipe Grabber",
-    "alt": "Image of Recipe Grabber loading page",
+    "name": "Recipe Grabber",
+    "alt": "Recipe Grabber loading page",
     "image": "https://raw.githubusercontent.com/benjistealth/benji_bootstrap_portfolio/main/assets/images/recipe_grabber.png",
     "projurl": "https://splwdev.github.io/Recipe-Grabber/",
     "description": "Project - A webtool to  grab recipes, images and ingredients from API calls from user search criteria"
@@ -47,8 +47,8 @@
   {
     "id": 6,
     "page": "Project6",
-    "name": "Project 6 - Redme Generator",
-    "alt": "Image of generated readme page",
+    "name": "Redme Generator",
+    "alt": "generated readme page",
     "image": "https://raw.githubusercontent.com/benjistealth/benji_bootstrap_portfolio/main/assets/images/readme_generator.png",
     "projurl": "https://github.com/benjistealth/repo_readme_generator",
     "description": "Challenge - A tool to generate an attractive readme.md file from cmdline questions"

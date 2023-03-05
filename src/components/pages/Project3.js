@@ -4,38 +4,35 @@ import Home from './Home';
 import "./ProjectPages.css";
 
 
-function Project1() {
+function Project3() {
   
   return (
     <div>
-         {/* {projects.map(f => <Project1 key={f.id} name={f.name} image={f.image} description={f.description}/>)} */}
-      <h1>Horiseon</h1>
+      <h1>JS Quiz</h1>
       <div className="img-container">
-      {/* <a href="https://en.wikipedia.org/wiki/Cat"><img src="https:.jpg" alt=" a field."/></a> */}
-      <a href="https://benjistealth.github.io/benji_refactoring_challenge_module1/"><img className="rounded mx-auto d-block" alt={"Horiseon logo"} src={"https://raw.githubusercontent.com/benjistealth/benji_bootstrap_portfolio/main/assets/images/horiseon2.png"}/></a>
+      <a href="https://benjistealth.github.io/benji_js_fundamentals_quiz/"><img className="rounded mx-auto d-block project-img" alt={"JS Quiz loading page"} src={"https://raw.githubusercontent.com/benjistealth/benji_bootstrap_portfolio/main/assets/images/js_quiz.png"}/></a>
         
       </div>
       <div className="content">
         <ul>
           <li>
-            <strong>Project:</strong> {"Project 1 - Horiseon"}
+            <strong>Project:</strong> {"JavaScript Fundamentals Quiz"}
           </li>
           <li>
-            <strong>Description:</strong> {"Challenge - To refactor a broken single page website"}
+            <strong>Description:</strong> {"Challenge - To create a JavaScript fundamentals quiz website"}
           </li>
           </ul>
-          <p className="description">
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer gravida dui
-        mauris, ut interdum nunc egestas sed. Aenean sed mollis diam. Nunc aliquet risus ac finibus
-        porta. Nam quis arcu non lectus tincidunt fermentum. Suspendisse aliquet orci porta quam
-        semper imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus in. Sed
-        rhoncus mollis diam, sit amet facilisis lectus blandit at.
+          <p className="description d-none d-lg-block">
+        There were a few requirements here, we had to ask multiple coice questions 
+        with buttons to select the answer.  A timer would run and take off 10 seconds for wrong answers.
+        At the end, users can enter their initials and the high scores would be recorded in local storage.
+        The HighScores page would then be displayed with all recorded scores displayed in leader order.
       </p>
        
       </div>
 
       <Link to="/">
-        Back to Home Page
+      <button className="btn btn-back"></button>
       </Link>
       <Routes>
         <Route path="Home" element={<Home />} />
@@ -44,4 +41,4 @@ function Project1() {
   );
 }
 
-export default Project1;
+export default Project3;

@@ -4,15 +4,13 @@ import Home from './Home';
 import "./ProjectPages.css";
 
 
-function Project1() {
+function Project6() {
   
   return (
     <div>
-         {/* {projects.map(f => <Project1 key={f.id} name={f.name} image={f.image} description={f.description}/>)} */}
-      <h1>Horiseon</h1>
+      <h1>Repo Readme Generator</h1>
       <div className="img-container">
-      {/* <a href="https://en.wikipedia.org/wiki/Cat"><img src="https:.jpg" alt=" a field."/></a> */}
-      <a href="https://benjistealth.github.io/benji_refactoring_challenge_module1/"><img className="rounded mx-auto d-block" alt={"Horiseon logo"} src={"https://raw.githubusercontent.com/benjistealth/benji_bootstrap_portfolio/main/assets/images/horiseon2.png"}/></a>
+      <a href="https://github.com/benjistealth/repo_readme_generator"><img className="rounded mx-auto d-block project-img" alt={"generated readme page"} src={"https://raw.githubusercontent.com/benjistealth/benji_bootstrap_portfolio/main/assets/images/readme_generator.png"}/></a>
         
       </div>
       <div className="content">
@@ -21,21 +19,18 @@ function Project1() {
             <strong>Project:</strong> {"Readme.md Generator"}
           </li>
           <li>
-            <strong>Description:</strong> {"Challenge - To create a Node.js app to create a stylist readme from cmdline text entry"}
+            <strong>Description:</strong> {"Challenge - A tool to generate an attractive readme.md file from cmdline questions"}
           </li>
           </ul>
-          <p className="description">
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer gravida dui
-        mauris, ut interdum nunc egestas sed. Aenean sed mollis diam. Nunc aliquet risus ac finibus
-        porta. Nam quis arcu non lectus tincidunt fermentum. Suspendisse aliquet orci porta quam
-        semper imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus in. Sed
-        rhoncus mollis diam, sit amet facilisis lectus blandit at.
+          <p className="description d-none d-lg-block">
+        This project was my first time using Node.js
+         and was quite rewarding in the end, but there were a lot of fiddly changes needed to the generated markdown.
       </p>
        
       </div>
 
       <Link to="/">
-        Back to Home Page
+      <button className="btn btn-back"></button>
       </Link>
       <Routes>
         <Route path="Home" element={<Home />} />
