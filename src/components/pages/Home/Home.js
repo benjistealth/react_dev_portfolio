@@ -29,40 +29,6 @@ function Home() {
             </div>
 
 
-            <div className="links justify-content-center">
-                {/* Link to About Page */}
-                <Link to="about">
-                    <button className="btn btn-about"> about</button>
-                </Link>
-                <Routes>
-                    <Route path="About" element={<About />} />
-                </Routes>
-
-                {/* Link to Contact Page */}
-                <Link to="Contact">
-                    <button className="btn btn-contact">contact</button>
-                </Link>
-                <Routes>
-                    <Route path="/Contact" element={<Contact />} />
-                </Routes>
-
-                {/* Link to More Page */}
-                <Link to="/More">
-                    <button className="btn btn-more">more</button>
-                </Link>
-                <Routes>
-                    <Route path="/More" element={<More />} />
-                </Routes>
-
-                {/* Link to Project Gallery */}
-                <Link to="ProjectGallery">
-                    <button className="btn btn-project-gallery">project gallery</button>
-                </Link>
-                <Routes>
-                    <Route path="/ProjectGallery" element={<ProjectGallery />} />
-                </Routes>
-                <hr className="container-fluid"></hr>
-            </div>
         </div>
     );
 }

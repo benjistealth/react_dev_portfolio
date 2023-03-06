@@ -70,7 +70,7 @@ class Form extends Component {
             placeholder="Email Address"
           />
           <input className="message"
-            value={this.state.email}
+            value={this.state.message}
             name="message"
             onChange={this.handleInputChange}
             type="text"
