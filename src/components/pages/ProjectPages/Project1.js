@@ -36,7 +36,7 @@ function Project1() {
         </ul>
         <p className="description d-none d-lg-block">
           This challenge was delivered in the form of an existing website with many issues.
-          We had to refactor all of the code, esize images, position logos and icons and text to
+          We had to refactor all of the code, resize images, position logos, icons and text to
           meet the requirements of an image of the completed site.
         </p>
       </div>

@@ -1,4 +1,8 @@
 
+.page-title {
+  text-align: center;
+}
+
 .avatar-container {
   display: flex;
   flex-direction: row;

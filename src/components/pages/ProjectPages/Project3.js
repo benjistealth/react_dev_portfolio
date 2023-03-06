@@ -34,7 +34,7 @@ function Project3() {
           </li>
           </ul>
           <p className="description d-none d-lg-block">
-        There were a few requirements here, we had to ask multiple coice questions 
+        There were a few requirements here, we had to ask multiple choice questions 
         with buttons to select the answer.  A timer would run and take off 10 seconds for wrong answers.
         At the end, users can enter their initials and the high scores would be recorded in local storage.
         The HighScores page would then be displayed with all recorded scores displayed in leader order.

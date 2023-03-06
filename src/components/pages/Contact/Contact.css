@@ -1,10 +1,16 @@
+.contact-title {
+  text-align: center;
+}
+
+
+
 .form {
   margin: 1rem;
   margin-left: 10rem;
 }
 
 .hello {
-  margin-left: 36rem;
+  margin-left: 10rem;
 }
 
 .form input {

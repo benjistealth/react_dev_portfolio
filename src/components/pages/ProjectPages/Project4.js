@@ -40,7 +40,7 @@ function Project4() {
         <p className="description d-none d-lg-block">
           Grey: Hours that are in the past
           Red: The current hour
-          Green: Ahead hours that are yet to be reached
+          Green: Ahead hours 
         </p>
       </div>
 

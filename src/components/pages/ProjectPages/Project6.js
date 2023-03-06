@@ -34,8 +34,9 @@ function Project6() {
           </li>
           </ul>
           <p className="description d-none d-lg-block">
-        This project was my first time using Node.js
-         and was quite rewarding in the end, but there were a lot of fiddly changes needed to the generated markdown.
+        This project was my first time using Node.js.  We had to build a command line application to generate a high quality 
+        readme.md file from project related questions answered at the terminal.  This was quite rewarding in the end, but there
+         were a lot of fiddly changes needed to the generated markdown for it to meet all of the requirements.
       </p>
        
       </div>

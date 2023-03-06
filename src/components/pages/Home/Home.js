@@ -12,8 +12,9 @@ function Home() {
 
     return (
         <div className="container">
+            <h2 className='page-title'>Home</h2>
             <div className="avatar-container container">
-                <img className="avatar mx-auto justify-content-center" src="https://raw.githubusercontent.com/benjistealth/react_dev_portfolio/main/src/assets/images/avatar.jpg"></img>
+                <img className="avatar" src="https://raw.githubusercontent.com/benjistealth/react_dev_portfolio/main/src/assets/images/avatar.jpg"></img>
 
                 <div className="statement-container container">
                     <p className="statement d-none d-lg-block">I am a seasoned tech professional who has reinvented myself as a front-end developer.

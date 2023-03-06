@@ -43,7 +43,7 @@ class Form extends Component {
     // Notice how each input has a `value`, `name`, and `onChange` prop
     return (
       <div className="container">
-        <h2 className="contact-title">Contact Me:</h2>
+        <h2 className="contact-title">Contact Me</h2>
         <p className="hello">
           Hello {this.state.firstName} {this.state.lastName}
         </p>
