@@ -3,7 +3,7 @@ import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import Home from './components/pages/Home/Home';
 import About from './components/pages/AboutContactMore/About';
-import Contact from './components/pages/AboutContactMore/Contact';
+import Contact from './components/pages/Contact/Contact';
 import More from './components/pages/AboutContactMore/More';
 import ProjectGallery from './components/pages/ProjectPages/ProjectGallery';
 import Project1 from './components/pages/ProjectPages/Project1';
@@ -17,7 +17,7 @@ function App() {
 
   return (
     <>
-    <Header></Header>  
+    <Header className="continer"/> 
     <Router>
       <div>
         {/* Wrap Route elements in a Routes component */}

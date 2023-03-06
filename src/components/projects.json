@@ -46,7 +46,7 @@
     "alt": "Recipe Grabber loading page",
     "image": "https://raw.githubusercontent.com/benjistealth/benji_bootstrap_portfolio/main/assets/images/recipe_grabber.png",
     "deployedUrl": "https://splwdev.github.io/Recipe-Grabber/",
-    "repoURL": "https://github.com/benjistealth/benji_bootstrap_portfolio/",
+    "repoURL": "https://github.com/benjistealth/Recipe-Grabber-Public",
     "description": "Project - A webtool to  grab recipes, images and ingredients from API calls from user search criteria"
   },
   {

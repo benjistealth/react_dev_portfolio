@@ -1,20 +1,22 @@
 import React from "react";
-import { Link, Route, Routes } from 'react-router-dom';
+import { Link, Route, Routes, useNavigate } from 'react-router-dom';
 import Home from '../Home/Home';
 import "./ProjectPages.css";
+import projects from "../../projects.json";
 
 
 function Project4() {
 
+  const navigate = useNavigate();
+
+	const GoBack = () => {
+		navigate(-1);
+	}
+
   return (
     <div>
       <h1>Day Scheduler</h1>
-      <Link to="/">
-      <button className="btn btn-back"></button>
-      </Link>
-      <Routes>
-        <Route path="Home" element={<Home />} />
-      </Routes>
+      <button className="btn btn-back" onClick={GoBack}></button>
       <div className="img-container">
         <a href="https://benjistealth.github.io/work_day_scheduler/"><img className="rounded mx-auto d-block project-img" alt={"Day Scheduler loading page"} src={"https://raw.githubusercontent.com/benjistealth/benji_bootstrap_portfolio/main/assets/images/scheduler.png"} /></a>
 
@@ -26,6 +28,9 @@ function Project4() {
           </li>
           <li>
             <strong>Description:</strong> {"Challenge - To create a day scheduler"}
+          </li>
+          <li>
+            <strong>Github Repo:</strong> <a href={projects[3].repoURL}><img className="d-block github-img" alt={"Github logo"} src={"https://raw.githubusercontent.com/benjistealth/react_dev_portfolio/main/src/assets/images/Github.png"} /></a>
           </li>
         </ul>
         <p className="description d-none d-lg-block">
@@ -39,12 +44,7 @@ function Project4() {
         </p>
       </div>
 
-      <Link to="/">
-      <button className="btn btn-back"></button>
-      </Link>
-      <Routes>
-        <Route path="Home" element={<Home />} />
-      </Routes>
+      <button className="btn btn-back" onClick={GoBack}></button>
     </div>
   );
 }

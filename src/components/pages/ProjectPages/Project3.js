@@ -1,20 +1,22 @@
 import React from "react";
-import { Link, Route, Routes } from 'react-router-dom';
+import { Link, Route, Routes, useNavigate} from 'react-router-dom';
 import Home from '../Home/Home';
 import "./ProjectPages.css";
+import projects from "../../projects.json";
 
 
 function Project3() {
+
+  const navigate = useNavigate();
+
+	const GoBack = () => {
+		navigate(-1);
+	}
   
   return (
     <div>
       <h1>JS Quiz</h1>
-      <Link to="/">
-      <button className="btn btn-back"></button>
-      </Link>
-      <Routes>
-        <Route path="Home" element={<Home />} />
-      </Routes>
+      <button className="btn btn-back" onClick={GoBack}></button>
       <div className="img-container">
       <a href="https://benjistealth.github.io/benji_js_fundamentals_quiz/"><img className="rounded mx-auto d-block project-img" alt={"JS Quiz loading page"} src={"https://raw.githubusercontent.com/benjistealth/benji_bootstrap_portfolio/main/assets/images/js_quiz.png"}/></a>
         
@@ -27,6 +29,9 @@ function Project3() {
           <li>
             <strong>Description:</strong> {"Challenge - To create a JavaScript fundamentals quiz website"}
           </li>
+          <li>
+            <strong>Github Repo:</strong> <a href={projects[2].repoURL}><img className="d-block github-img" alt={"Github logo"} src={"https://raw.githubusercontent.com/benjistealth/react_dev_portfolio/main/src/assets/images/Github.png"} /></a>
+          </li>
           </ul>
           <p className="description d-none d-lg-block">
         There were a few requirements here, we had to ask multiple coice questions 
@@ -37,12 +42,7 @@ function Project3() {
        
       </div>
 
-      <Link to="/">
-      <button className="btn btn-back"></button>
-      </Link>
-      <Routes>
-        <Route path="Home" element={<Home />} />
-      </Routes>
+      <button className="btn btn-back" onClick={GoBack}></button>
     </div>
   );
 }

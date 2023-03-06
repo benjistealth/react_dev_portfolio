@@ -24,7 +24,7 @@
   background: cover;
 }
 .card > .img-container > img {
-  width: 90%
+  width: 100%;
 }
 
 .card > .content {

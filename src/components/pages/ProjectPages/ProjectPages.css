@@ -46,3 +46,8 @@ h1 {
 .btn-back:hover {
   box-shadow: 0 6px 40px #15e231, 0 6px 15px #999;
 }
+
+.github-img {
+  height: 10vh;
+  margin-left: 8vw;
+}

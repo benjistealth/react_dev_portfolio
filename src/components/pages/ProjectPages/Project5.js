@@ -1,20 +1,22 @@
 import React from "react";
-import { Link, Route, Routes } from 'react-router-dom';
+import { Link, Route, Routes, useNavigate } from 'react-router-dom';
 import Home from '../Home/Home';
 import "./ProjectPages.css";
+import projects from "../../projects.json";
 
 
 function Project5() {
 
+  const navigate = useNavigate();
+
+	const GoBack = () => {
+		navigate(-1);
+	}
+
   return (
     <div>
       <h1>Recipe Grabber</h1>
-      <Link to="/">
-      <button className="btn btn-back"></button>
-      </Link>
-      <Routes>
-        <Route path="Home" element={<Home />} />
-      </Routes>
+      <button className="btn btn-back" onClick={GoBack}></button>
       <div className="img-container">
         <a href="https://splwdev.github.io/Recipe-Grabber/"><img className="rounded mx-auto d-block project-img" alt={"Recipe Grabber loading page"} src={"https://raw.githubusercontent.com/benjistealth/benji_bootstrap_portfolio/main/assets/images/recipe_grabber.png"} /></a>
       </div>
@@ -25,6 +27,9 @@ function Project5() {
           </li>
           <li>
             <strong>Description:</strong> {"Project - A webtool to  grab recipes, images and ingredients from API calls from user search criteria"}
+          </li>
+          <li>
+            <strong>Github Repo:</strong> <a href={projects[4].repoURL}><img className="d-block github-img" alt={"Github logo"} src={"https://raw.githubusercontent.com/benjistealth/react_dev_portfolio/main/src/assets/images/Github.png"} /></a>
           </li>
         </ul>
         <p className="description d-none d-lg-block">
@@ -42,12 +47,7 @@ function Project5() {
 
       </div>
 
-      <Link to="/">
-      <button className="btn btn-back"></button>
-      </Link>
-      <Routes>
-        <Route path="Home" element={<Home />} />
-      </Routes>
+      <button className="btn btn-back" onClick={GoBack}></button>
     </div>
   );
 }

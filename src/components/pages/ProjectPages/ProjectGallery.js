@@ -1,8 +1,6 @@
 import projects from '../../projects.json';
 import ProjCard from '../../ProjCard/ProjCard';
 import CardWrapper from '../../CardWrapper/CardWrapper';
-import { Link, Route, Routes } from 'react-router-dom';
-
 // required to trigger page changes via router from JS
 import { useNavigate } from "react-router-dom";
 
@@ -10,6 +8,7 @@ import { useNavigate } from "react-router-dom";
 function ProjectGallery(props) {
 
     const navigate = useNavigate();
+    
     function GoToProject(page) {
 
         navigate(page);

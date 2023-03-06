@@ -1,0 +1,29 @@
+.form {
+  margin: 20px;
+  margin-left: 10rem;
+}
+
+.hello {
+  margin-left: 36rem;
+}
+
+
+.form input {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  
+  width: 30%;
+}
+
+input.message {
+  width: 30%;
+  height: 30vh;
+}
+
+
+
+.submit:hover {
+  color:black;
+box-shadow: 0 6px 40px #15e231, 0 6px 15px #999;
+}

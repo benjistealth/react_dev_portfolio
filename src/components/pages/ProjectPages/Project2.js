@@ -1,21 +1,22 @@
 import React from "react";
-import { Link, Route, Routes } from 'react-router-dom';
+import { Link, Route, Routes, useNavigate } from 'react-router-dom';
 import "./ProjectPages.css";
 import ProjectGallery from "./ProjectGallery";
 import projects from "../../projects.json";
 
 
 function Project2() {
+
+  const navigate = useNavigate();
+
+	const GoBack = () => {
+		navigate(-1);
+	}
   
   return (
     <div>
       <h1>Jakes Eatery</h1>
-      <Link to="projectgallery">
-      <button className="btn btn-back"></button>
-      </Link>
-      <Routes>
-        <Route path="/ProjectGallery" element={<ProjectGallery />} />
-      </Routes>
+      <button className="btn btn-back" onClick={GoBack}></button>
       <div className="img-container">
       <a href="https://benjistealth.github.io/benji_jakes_eatery/"><img className="rounded mx-auto d-block project-img" alt={"Jakes Eatery Restaurant logo"} src={"https://raw.githubusercontent.com/benjistealth/benji_bootstrap_portfolio/main/assets/images/jakes-logo.png"}/></a>
         
@@ -29,8 +30,7 @@ function Project2() {
             <strong>Description:</strong> {"Challenge - To create this website from an image"}
           </li>
           <li>
-          <a href="https://benjistealth.github.io/benji_jakes_eatery/"><img className="rounded mx-auto d-block project-img" alt={"Jakes Eatery Restaurant logo"} src={"https://raw.githubusercontent.com/benjistealth/benji_bootstrap_portfolio/main/assets/images/jakes-logo.png"}/></a>
-            <strong>Github Repo:</strong> {projects[1].repoURL}
+            <strong>Github Repo:</strong> <a href={projects[1].repoURL}><img className="d-block github-img" alt={"Github logo"} src={"https://raw.githubusercontent.com/benjistealth/react_dev_portfolio/main/src/assets/images/Github.png"}/></a>
           </li>
           </ul>
           <p className="description d-none d-lg-block">
@@ -40,12 +40,7 @@ function Project2() {
        
       </div>
 
-      <Link to="projectgallery">
-      <button className="btn btn-back"></button>
-      </Link>
-      <Routes>
-        <Route path="/ProjectGallery" element={<ProjectGallery />} />
-      </Routes>
+      <button className="btn btn-back" onClick={GoBack}></button>
     </div>
   );
 }
