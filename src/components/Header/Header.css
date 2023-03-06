@@ -12,4 +12,7 @@ color: rgb(14, 14, 16) !important;
 font-weight: bold;
 }
 
-
+.avatar {
+  background-image: url("../../assets/images/avatar.jpg");
+  height: 10vh;
+}

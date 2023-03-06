@@ -40,7 +40,7 @@ h1 {
   width: 6vw;
   height: 8vh;
   margin-left: 5vw;
-  border-radius: 25px;
+  border-radius: 15px !important;
 }
 
 .btn-back:hover {
