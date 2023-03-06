@@ -15,3 +15,7 @@
 .tabrow .tabtn .active {
   background: #130b0b;
 }
+
+hr {
+  padding: 1rem;
+}

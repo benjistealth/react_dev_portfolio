@@ -78,7 +78,7 @@ class Form extends Component {
           />
           <button className="submit" onClick={this.handleFormSubmit}>Submit</button>
         </form>
-        <div className="contact" id="contact">
+        <div className="contact d-none d-lg-block py-5 px-5" id="contact">
             <h3>Contact Details</h3>
             <p>There are no real contact details in here, because, guess what, I dont want to be contacted by anyone.
               Here are some dummy deets just for completeness.  Any actual contact should be made via Github
