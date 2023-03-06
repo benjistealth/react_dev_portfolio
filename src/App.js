@@ -15,7 +15,6 @@ import Project6 from './components/pages/ProjectPages/Project6';
 
 function App() {
 
-
   return (
     <>
     <Header></Header>  
@@ -26,16 +25,16 @@ function App() {
           {/* Define routes using the Route component to render different page components at different paths */}
           {/* Define a default route that will render the Home component */}
           <Route path="/" element={<Home />} />
-          <Route path="Project1" element={<About />} />
-          <Route path="Project1" element={<Contact />} />
-          <Route path="Project1" element={<More />} />
-          <Route path="Project1" element={<ProjectGallery />} />
-          <Route path="Project1" element={<Project1 />} />
-          <Route path="Project2" element={<Project2 />} />
-          <Route path="Project3" element={<Project3 />} />
-          <Route path="Project4" element={<Project4 />} />
-          <Route path="Project5" element={<Project5 />} />
-          <Route path="Project6" element={<Project6 />} />
+          <Route path="/About" element={<About />} />
+          <Route path="/Contact" element={<Contact />} />
+          <Route path="/More" element={<More />} />
+          <Route path="/ProjectGallery" element={<ProjectGallery />} />
+          <Route path="/Project1" element={<Project1 />} />
+          <Route path="/Project2" element={<Project2 />} />
+          <Route path="/Project3" element={<Project3 />} />
+          <Route path="/Project4" element={<Project4 />} />
+          <Route path="/Project5" element={<Project5 />} />
+          <Route path="/Project6" element={<Project6 />} />
           {/* Define a route that will have descendant routes */}
           {/* <Route path="contact/*" element={<Contact />} /> */}
         </Routes>

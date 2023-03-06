@@ -1,17 +1,17 @@
 [
   {
     "id": 1,
-    "page": "Project1",
+    "page": "/Project1",
     "name": "Horiseon",
     "alt": "Horiseon logo",
     "image": "https://raw.githubusercontent.com/benjistealth/benji_bootstrap_portfolio/main/assets/images/horiseon2.png",
     "deployedUrl": "https://benjistealth.github.io/benji_refactoring_challenge_module1/",
-    "repoURL": "https://github.com/benjistealth/benji_bootstrap_portfolio/",
+    "repoURL": "https://github.com/benjistealth/benji_refactoring_challenge_module1/",
     "description": "Challenge - To refactor a broken single page website"
   },
   {
     "id": 2,
-    "page": "Project2",
+    "page": "/Project2",
     "name": "Jakes Eatery",
     "alt": "Jakes Eatery Logo",
     "image": "https://raw.githubusercontent.com/benjistealth/benji_bootstrap_portfolio/main/assets/images/jakes-logo.png",
@@ -21,7 +21,7 @@
   },
   {
     "id": 3,
-    "page": "Project3",
+    "page": "/Project3",
     "name": "JS Quiz",
     "alt": "JS Qiz loading screen",
     "image": "https://raw.githubusercontent.com/benjistealth/benji_bootstrap_portfolio/main/assets/images/js_quiz.png",
@@ -31,7 +31,7 @@
   },
   {
     "id": 4,
-    "page": "Project4",
+    "page": "/Project4",
     "name": "Day Scheduler",
     "alt": "work day scheduler page",
     "image": "https://raw.githubusercontent.com/benjistealth/benji_bootstrap_portfolio/main/assets/images/scheduler.png",
@@ -41,7 +41,7 @@
   },
   {
     "id": 5,
-    "page": "Project5",
+    "page": "/Project5",
     "name": "Recipe Grabber",
     "alt": "Recipe Grabber loading page",
     "image": "https://raw.githubusercontent.com/benjistealth/benji_bootstrap_portfolio/main/assets/images/recipe_grabber.png",
@@ -51,7 +51,7 @@
   },
   {
     "id": 6,
-    "page": "Project6",
+    "page": "/Project6",
     "name": "Redme Generator",
     "alt": "generated readme page",
     "image": "https://raw.githubusercontent.com/benjistealth/benji_bootstrap_portfolio/main/assets/images/readme_generator.png",

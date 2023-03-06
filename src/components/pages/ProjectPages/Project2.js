@@ -1,7 +1,8 @@
 import React from "react";
 import { Link, Route, Routes } from 'react-router-dom';
-import Home from '../Home/Home';
 import "./ProjectPages.css";
+import ProjectGallery from "./ProjectGallery";
+import projects from "../../projects.json";
 
 
 function Project2() {
@@ -9,11 +10,11 @@ function Project2() {
   return (
     <div>
       <h1>Jakes Eatery</h1>
-      <Link to="/">
+      <Link to="projectgallery">
       <button className="btn btn-back"></button>
       </Link>
       <Routes>
-        <Route path="Home" element={<Home />} />
+        <Route path="/ProjectGallery" element={<ProjectGallery />} />
       </Routes>
       <div className="img-container">
       <a href="https://benjistealth.github.io/benji_jakes_eatery/"><img className="rounded mx-auto d-block project-img" alt={"Jakes Eatery Restaurant logo"} src={"https://raw.githubusercontent.com/benjistealth/benji_bootstrap_portfolio/main/assets/images/jakes-logo.png"}/></a>
@@ -27,6 +28,10 @@ function Project2() {
           <li>
             <strong>Description:</strong> {"Challenge - To create this website from an image"}
           </li>
+          <li>
+          <a href="https://benjistealth.github.io/benji_jakes_eatery/"><img className="rounded mx-auto d-block project-img" alt={"Jakes Eatery Restaurant logo"} src={"https://raw.githubusercontent.com/benjistealth/benji_bootstrap_portfolio/main/assets/images/jakes-logo.png"}/></a>
+            <strong>Github Repo:</strong> {projects[1].repoURL}
+          </li>
           </ul>
           <p className="description d-none d-lg-block">
           We were given the base images that were needed and used HTML & CSS to build the website.
@@ -35,11 +40,11 @@ function Project2() {
        
       </div>
 
-      <Link to="/">
+      <Link to="projectgallery">
       <button className="btn btn-back"></button>
       </Link>
       <Routes>
-        <Route path="Home" element={<Home />} />
+        <Route path="/ProjectGallery" element={<ProjectGallery />} />
       </Routes>
     </div>
   );
