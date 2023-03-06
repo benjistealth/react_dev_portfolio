@@ -1,13 +1,17 @@
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
-import Home from './components/pages/Home';
-import Project1 from './components/pages/Project1';
-import Project2 from './components/pages/Project2';
-import Project3 from './components/pages/Project3';
-import Project4 from './components/pages/Project4';
-import Project5 from './components/pages/Project5';
-import Project6 from './components/pages/Project6';
+import Home from './components/pages/Home/Home';
+import About from './components/pages/AboutContactMore/About';
+import Contact from './components/pages/AboutContactMore/Contact';
+import More from './components/pages/AboutContactMore/More';
+import ProjectGallery from './components/pages/ProjectPages/ProjectGallery';
+import Project1 from './components/pages/ProjectPages/Project1';
+import Project2 from './components/pages/ProjectPages/Project2';
+import Project3 from './components/pages/ProjectPages/Project3';
+import Project4 from './components/pages/ProjectPages/Project4';
+import Project5 from './components/pages/ProjectPages/Project5';
+import Project6 from './components/pages/ProjectPages/Project6';
 
 function App() {
 
@@ -22,6 +26,10 @@ function App() {
           {/* Define routes using the Route component to render different page components at different paths */}
           {/* Define a default route that will render the Home component */}
           <Route path="/" element={<Home />} />
+          <Route path="Project1" element={<About />} />
+          <Route path="Project1" element={<Contact />} />
+          <Route path="Project1" element={<More />} />
+          <Route path="Project1" element={<ProjectGallery />} />
           <Route path="Project1" element={<Project1 />} />
           <Route path="Project2" element={<Project2 />} />
           <Route path="Project3" element={<Project3 />} />

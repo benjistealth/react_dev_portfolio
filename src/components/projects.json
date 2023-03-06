@@ -5,7 +5,8 @@
     "name": "Horiseon",
     "alt": "Horiseon logo",
     "image": "https://raw.githubusercontent.com/benjistealth/benji_bootstrap_portfolio/main/assets/images/horiseon2.png",
-    "projurl": "https://benjistealth.github.io/benji_refactoring_challenge_module1/",
+    "deployedUrl": "https://benjistealth.github.io/benji_refactoring_challenge_module1/",
+    "repoURL": "https://github.com/benjistealth/benji_bootstrap_portfolio/",
     "description": "Challenge - To refactor a broken single page website"
   },
   {
@@ -14,7 +15,8 @@
     "name": "Jakes Eatery",
     "alt": "Jakes Eatery Logo",
     "image": "https://raw.githubusercontent.com/benjistealth/benji_bootstrap_portfolio/main/assets/images/jakes-logo.png",
-    "projurl": "https://benjistealth.github.io/benji_jakes_eatery/",
+    "deployedUrl": "https://benjistealth.github.io/benji_jakes_eatery/",
+    "repoURL": "https://github.com/benjistealth/benji_jakes_eatery/",
     "description": "Challenge - To build a page to meet an image spec"
   },
   {
@@ -23,7 +25,8 @@
     "name": "JS Quiz",
     "alt": "JS Qiz loading screen",
     "image": "https://raw.githubusercontent.com/benjistealth/benji_bootstrap_portfolio/main/assets/images/js_quiz.png",
-    "projurl": "https://benjistealth.github.io/benji_js_fundamentals_quiz/",
+    "deployedUrl": "https://benjistealth.github.io/benji_js_fundamentals_quiz/",
+    "repoURL": "https://github.com/benjistealth/benji_js_fundamentals_quiz/",
     "description": "Challenge - To create a webpage with a JS Quiz"
   },
   {
@@ -32,7 +35,8 @@
     "name": "Day Scheduler",
     "alt": "work day scheduler page",
     "image": "https://raw.githubusercontent.com/benjistealth/benji_bootstrap_portfolio/main/assets/images/scheduler.png",
-    "projurl": "https://benjistealth.github.io/work_day_scheduler/",
+    "deployedUrl": "https://benjistealth.github.io/work_day_scheduler/",
+    "repoURL": "https://github.com/benjistealth/work_day_scheduler/",
     "description": "Challenge - A day scheduler to save your days activities"
   },
   {
@@ -41,7 +45,8 @@
     "name": "Recipe Grabber",
     "alt": "Recipe Grabber loading page",
     "image": "https://raw.githubusercontent.com/benjistealth/benji_bootstrap_portfolio/main/assets/images/recipe_grabber.png",
-    "projurl": "https://splwdev.github.io/Recipe-Grabber/",
+    "deployedUrl": "https://splwdev.github.io/Recipe-Grabber/",
+    "repoURL": "https://github.com/benjistealth/benji_bootstrap_portfolio/",
     "description": "Project - A webtool to  grab recipes, images and ingredients from API calls from user search criteria"
   },
   {
@@ -50,7 +55,8 @@
     "name": "Redme Generator",
     "alt": "generated readme page",
     "image": "https://raw.githubusercontent.com/benjistealth/benji_bootstrap_portfolio/main/assets/images/readme_generator.png",
-    "projurl": "https://github.com/benjistealth/repo_readme_generator",
+    "deployedUrl": "https://github.com/benjistealth/repo_readme_generator/",
+    "repoURL": "https://github.com/benjistealth/repo_readme_generator/",
     "description": "Challenge - A tool to generate an attractive readme.md file from cmdline questions"
   }
 ]

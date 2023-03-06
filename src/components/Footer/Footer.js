@@ -4,10 +4,10 @@ import "./Footer.css";
 
 function Footer() {
   return (
-  <footer>
-    <div className="container-fluid justify-content-center" id="footer">
-      {/* <!-- changed the native color to dark using inbuilt CSS from Bootstrap :-) --> */}
-      <nav className="nav tabrow justify-content-center nav-pills navbar-dark bg-dark"/>
+    <footer>
+      <div className="container-fluid justify-content-center" id="footer">
+        {/* <!-- changed the native color to dark using inbuilt CSS from Bootstrap :-) --> */}
+        <nav className="nav tabrow justify-content-center nav-pills navbar-dark bg-dark" />
         <nav className="nav justify-content-center tabrow nav-pills flex-md-row">
           <a className="nav-link active tabtn m-1" href="#skills" data-toggle="tab">Skills</a>
           <a className="nav-link tabtn m-1" href="#contact" data-toggle="tab">Contact</a>
@@ -20,38 +20,47 @@ function Footer() {
             <h3>Bootcamp Skills</h3>
             <p>The EDX Front End Web Development Bootcamp is a serious course for serious people wanting some serious
               skills.
-              The main reason for writing this much is die to the fact that I have a weird bug in this footer/nav
-              thingy.
-              Key Bootcamp skills: HTML / CSS / Bootstrap / Javascript AJAX / REACT.js / Developer Mindset / Developer
+              The main reason for writing this much is due to the fact that I have a weird bug in this footer/nav.
+              Key Bootcamp skills: HTML / CSS / Bootstrap /JQuery / Javascript AJAX / REACT.js / Developer Mindset / Developer
               Tools / Developer Technologies.</p>
           </div>
 
           <div className="tab-pane" id="contact">
             <h3>Contact Details</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-              fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-              anim id est laborum.</p>
+            <p>There are no real contact details in here, because, guess what, I dont want to be contacted by anyone.
+              Here are some dummy contact details just for completeness.  Any actual contact should be made via Github
+              issues on a per repo basis for tracking purposes.</p>
+            <p>
+              LinkdIn - nouser@linkdin.com I dont have a real Linkdin account yet
+              Github - nouser@github.com - note that if you are a sluth, you can find this from my repos.
+              EmailAddress - nouser@email.com
+              PhoneNumber - +447969 69 69 69 (yeah, I wish lol)
+            </p>
           </div>
 
           <div className="tab-pane" id="more">
             <h3>About Me</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-              fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-              anim id est laborum.</p>
+            <p>I am a life long techy, studied Physics, Maths and Electronics in my youth, I have had a fabulously diverse
+              rage of job roles over the years, but 10 years ago, I decided I wanted to work in software and became a software
+              test engineer, this lead to learning to code in C, C++ and C# as well as experience in TDD and BDD.
+                My carrer took a slight diversion from this path as I supported the business by taking over management the IT infrastructure,
+                 tool management and endpoint management.  Last year I had some life changing health issues and decided I wanted to do more Development work.
+               I decided to learn Front end web development to compliment my low level experience.
+              </p>
+              <p>
+              I have been on the EDX Bootcamp which has been hard work, learning technologies, many of which have been completely new
+              to me.  This has been a steep learning curve but I am glad that I took part.  This is a showcase of some of my projects
+              that I have created along the way. I hope you enjoy looking through them as much as I did creating them.
+            </p>
           </div>
-          
-        </div>
-        <nav/>
-    </div>
 
-  </footer>
+        </div>
+        <nav />
+      </div>
+
+    </footer>
   );
 }
 
 export default Footer;
+ 

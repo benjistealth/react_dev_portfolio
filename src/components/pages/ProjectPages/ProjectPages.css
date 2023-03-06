@@ -34,7 +34,7 @@ h1 {
 }
 
 .btn-back {
-  background-image: URL("../../assets/images/back-button-icon.png");
+  background-image: URL("../../../assets/images/back-button-icon.png");
   background-size: contain;
   background-repeat: no-repeat;
   width: 6vw;
