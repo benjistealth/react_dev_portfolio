@@ -30,7 +30,7 @@ class Form extends Component {
     if(!(this.state.lastName && this.state.firstName && this.state.email)) {alert("Please complete all fields!");}
 
     // Alert the user their first and last name, clear `this.state.firstName` and `this.state.lastName`, clearing the inputs
-    alert(`Submitted with your message -  ${this.state.firstName} ${this.state.lastName} ${this.state.email}`);
+    alert(`Submitted with your message -  ${this.state.firstName} ${this.state.lastName} ${this.state.email}\n\n ${this.state.message} `);
     this.setState({
       firstName: "",
       lastName: "",
@@ -40,10 +40,12 @@ class Form extends Component {
   };
 
   render() {
-    // Notice how each input has a `value`, `name`, and `onChange` prop
+    // each input has a `value`, `name`, and `onChange` prop
     return (
       <div className="container">
-        <h2 className="contact-title">Contact Me</h2>
+      <h2 className="contact-title">Contact Me</h2>
+      <div className="container">
+        
         <p className="hello">
           Hello {this.state.firstName} {this.state.lastName}
         </p>
@@ -69,7 +71,7 @@ class Form extends Component {
             type="text"
             placeholder="Email Address"
           />
-          <input className="message"
+          <textarea className="message"
             value={this.state.message}
             name="message"
             onChange={this.handleInputChange}
@@ -90,6 +92,9 @@ class Form extends Component {
               PhoneNumber - +447969 69 69 69 (yeah, I wish lol)
             </p>
           </div>
+          <img className="resume" alt="dummy resume"></img>
+          </div>
+
       </div>
     );
   }

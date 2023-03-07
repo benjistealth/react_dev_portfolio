@@ -1,9 +1,4 @@
 import React from "react";
-import { Link, Route, Routes } from 'react-router-dom';
-import About from '../AboutContactMore/About';
-import Contact from '../Contact/Contact';
-import More from '../AboutContactMore/More';
-import ProjectGallery from '../ProjectPages/ProjectGallery';
 import "./Home.css";
 
 
@@ -14,7 +9,7 @@ function Home() {
         <div className="container">
             <h2 className='page-title'>Home</h2>
             <div className="avatar-container container">
-                <img className="avatar" src="https://raw.githubusercontent.com/benjistealth/react_dev_portfolio/main/src/assets/images/avatar.jpg"></img>
+                <img className="avatar" alt="penguin avatar" src="https://raw.githubusercontent.com/benjistealth/react_dev_portfolio/main/src/assets/images/avatar.jpg"></img>
 
                 <div className="statement-container container">
                     <p className="statement d-none d-lg-block">I am a seasoned tech professional who has reinvented myself as a front-end developer.

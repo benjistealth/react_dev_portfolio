@@ -2,6 +2,9 @@
   text-align: center;
 }
 
+.resume {
+
+}
 
 
 .form {
@@ -20,7 +23,10 @@
   width: 30rem;
 }
 
-input.message {
+textarea.message {
+  inline-size: 150px;
+  overflow-wrap: normal !important;
+  hyphens: manual;
   width: 30rem;
   height: 30vh;
 }

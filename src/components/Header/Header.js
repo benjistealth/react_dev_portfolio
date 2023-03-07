@@ -1,11 +1,6 @@
-import { HashRouter as NavLink, Link, Route, Routes, useNavigate } from 'react-router-dom';
 import React from "react";
 import "./Header.css";
-import Home from '../pages/Home/Home';
-import About from '../pages/AboutContactMore/About';
-import Contact from '../pages/Contact/Contact';
-import More from '../pages/AboutContactMore/More';
-import ProjectGallery from '../pages/ProjectPages/ProjectGallery';
+
 
 function Header() {
 
