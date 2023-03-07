@@ -1,6 +1,5 @@
 import React from "react";
-import { Link, Route, Routes, useNavigate } from 'react-router-dom';
-import Home from '../Home/Home';
+import { useNavigate } from 'react-router-dom';
 import "./ProjectPages.css";
 import projects from "../../projects.json";
 
@@ -15,28 +14,27 @@ function Project6() {
   
   return (
     <div>
-      <h1>Repo Readme Generator</h1>
+      <h1>API Weather Dashboard</h1>
       <button className="btn btn-back" onClick={GoBack}></button>
       <div className="img-container">
-      <a href="https://github.com/benjistealth/repo_readme_generator"><img className="rounded mx-auto d-block project-img" alt={"generated readme page"} src={"https://raw.githubusercontent.com/benjistealth/benji_bootstrap_portfolio/main/assets/images/readme_generator.png"}/></a>
+      <a href={projects[5].deployedUrl}><img className="rounded mx-auto d-block project-img" alt={"generated readme page"} src={projects[5].image}/></a>
         
       </div>
       <div className="content">
         <ul>
           <li>
-            <strong>Project:</strong> {"Readme.md Generator"}
+            <strong>Project:</strong> {projects[5].name}
           </li>
           <li>
-            <strong>Description:</strong> {"Challenge - A tool to generate an attractive readme.md file from cmdline questions"}
+            <strong>Description:</strong> {projects[5].description}
           </li>
           <li>
             <strong>Github Repo:</strong> <a href={projects[5].repoURL}><img className="d-block github-img" alt={"Github logo"} src={"https://raw.githubusercontent.com/benjistealth/react_dev_portfolio/main/src/assets/images/Github.png"} /></a>
           </li>
           </ul>
           <p className="description d-none d-lg-block">
-        This project was my first time using Node.js.  We had to build a command line application to generate a high quality 
-        readme.md file from project related questions answered at the terminal.  This was quite rewarding in the end, but there
-         were a lot of fiddly changes needed to the generated markdown for it to meet all of the requirements.
+        This project was my first time using third party API calls to gather and display information dynamically from user search
+        criteria. This project taught me about asynchronous call handling.
       </p>
        
       </div>

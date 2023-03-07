@@ -52,11 +52,12 @@
   {
     "id": 6,
     "page": "/Project6",
-    "name": "Redme Generator",
+    "name": "API Weather Dashboard",
     "alt": "generated readme page",
-    "image": "https://raw.githubusercontent.com/benjistealth/benji_bootstrap_portfolio/main/assets/images/readme_generator.png",
-    "deployedUrl": "https://github.com/benjistealth/repo_readme_generator/",
-    "repoURL": "https://github.com/benjistealth/repo_readme_generator/",
-    "description": "Challenge - A tool to generate an attractive readme.md file from cmdline questions"
+    "image": "https://raw.githubusercontent.com/benjistealth/api_weather_dashboard/main/assets/images/screenshot2.png",
+    "deployedUrl": "https://benjistealth.github.io/api_weather_dashboard/",
+    "repoURL": "https://github.com/benjistealth/api_weather_dashboard/",
+    "description": "Challenge - A tool to display a 5 day weather dashboard from a user location search"
   }
+
 ]
