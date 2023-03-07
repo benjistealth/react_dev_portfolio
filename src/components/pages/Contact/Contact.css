@@ -66,6 +66,8 @@ textarea.message {
 .submit:hover {
   color: black;
   box-shadow: 0 6px 40px #15e231, 0 6px 15px #999;
+  transition: transform ease-in-out 0.25s;
+  transform: scale(1.25);
 }
 
 @media only screen and (max-width: 1000px) {
