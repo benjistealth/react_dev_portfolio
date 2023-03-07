@@ -23,7 +23,7 @@ function ProjectGallery(props) {
     return (
         <div className="container">
             <CardWrapper>
-            {projects.map(f => <ProjCard key={f.id} name={f.name}
+            {projects.map(f => <ProjCard key={f.id} name={f.name} repoURL={f.repoURL} deployedUrl={f.deployedUrl}
                     image={f.image}
                     description={f.description}
                     selectFunction={() => { GoToProject(f.page) }} />)} {/* make this a select function above and go to a new page for each project?*/}

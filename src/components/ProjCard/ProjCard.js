@@ -16,6 +16,12 @@ function ProjCard(props) {
           <li>
             <strong>Description:</strong> {props.description}
           </li>
+          <li>
+          <strong>Deployment URL:</strong> <a className="nav-link" href={props.repoURL}>Click through to Repo</a>
+          </li>
+          <li>
+             <strong>Deployment URL:</strong> <a className="nav-link" href={props.deployedUrl}>Click through to Deployment</a>
+          </li>
         </ul> 
       </div>
     </div>
