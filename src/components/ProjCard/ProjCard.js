@@ -4,7 +4,7 @@ import "./ProjCard.css";
 
 function ProjCard(props) {
   return (
-    <div className="card col-md-3 selectCard" onClick={props.selectFunction}>
+    <div className="card col-md-2 selectCard" onClick={props.selectFunction}>
       <div className="img-container">
         <img alt={props.alt} src={props.image} />
       </div>
