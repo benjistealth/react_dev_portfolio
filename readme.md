@@ -22,28 +22,28 @@
 
 ## Demo
 
- - `NA`
+ - You can have a look around the deployed application here  - https://benjistealth.github.io/gh-pages/#/
 
 ## Screenshot of the Project Gallery
 
     
-  <img alt="Screenshot_1" src="./assets/images/screenshot1.png">
+  <img alt="Screenshot_1" src="./src/assets/images/screenshot1.png">
 
 
 ## Screenshot of a project page
 
 
-  <img alt="Screenshot_2" src="./assets/images/screenshot2.png">
+  <img alt="Screenshot_2" src="./src/assets/images/screenshot2.png">
 
 
 ## Installation
 
- - NA - Please take a look and click around the deployed application on Gihub Pages here - 
+ - NA - Please take a look and click around the deployed application on Gihub Pages here - https://benjistealth.github.io/gh-pages/#/
 
 
 ## Usage
 
-- Please take a look and click around the deployed application on Gihub Pages here - 
+- Please take a look and click around the deployed application on Gihub Pages here - https://benjistealth.github.io/gh-pages/#/
 
 
 ## Contribute
