@@ -10,11 +10,12 @@
   margin: 1rem;
   min-width: 15vw;
   text-align: left;
-  transform: scale(1.5);
 }
 
 .card:hover {
   box-shadow: 0 6px 40px #15e231, 0 6px 15px #999;
+  transition: transform ease-in-out 0.25s;
+  transform: scale(1.25);
 }
 
 .card > .img-container {

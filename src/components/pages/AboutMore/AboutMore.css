@@ -1,0 +1,19 @@
+.about h3,
+.skills h3 {
+    text-align: left;
+    ;
+    margin-bottom: 2rem;
+}
+
+.about-contecnt .content {
+    margin-left: 8rem;
+    margin-right: 8rem;
+}
+
+.contecnt .skills {
+    margin-top: 1rem;
+}
+
+.content .about {
+    margin-bottom: 4rem;
+}

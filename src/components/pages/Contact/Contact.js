@@ -42,9 +42,13 @@ class Form extends Component {
   render() {
     // each input has a `value`, `name`, and `onChange` prop
     return (
-      <div className="container">
+      <>
       <h2 className="contact-title">Contact Me</h2>
-      <div className="container">
+      <div className="container contact-page-container">
+        
+        <img className="resume" alt="dummy resume" src="https://raw.githubusercontent.com/benjistealth/react_dev_portfolio/main/src/assets/images/dummy_resume.png"></img>
+      
+      <div className="container form-container">
         
         <p className="hello">
           Hello {this.state.firstName} {this.state.lastName}
@@ -80,7 +84,7 @@ class Form extends Component {
           />
           <button className="submit" onClick={this.handleFormSubmit}>Submit</button>
         </form>
-        <div className="contact d-none d-lg-block py-5 px-5" id="contact">
+        <div className="contact d-none d-lg-block" id="contact">
             <h3>Contact Details</h3>
             <p>There are no real contact details in here, because, guess what, I dont want to be contacted by anyone.
               Here are some dummy deets just for completeness.  Any actual contact should be made via Github
@@ -92,10 +96,11 @@ class Form extends Component {
               PhoneNumber - +447969 69 69 69 (yeah, I wish lol)
             </p>
           </div>
-          <img className="resume" alt="dummy resume"></img>
+          
           </div>
 
       </div>
+      </>
     );
   }
 }

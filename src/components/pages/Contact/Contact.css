@@ -1,18 +1,43 @@
+.contact-page-container {
+  display: flex;
+}
+
 .contact-title {
   text-align: center;
 }
 
-.resume {
-
+.contact {
+  padding-top: 2rem;
+  padding-left: 10rem;
+  padding-right: 4rem;
 }
 
+.form-container {
+  margin-left: 0;
+}
+
+.resume {
+  margin-top: 8rem;
+  background-size: cover;
+  width: 30rem;
+  height: 40rem;
+  margin-left: 5rem;
+}
+
+.resume:hover {
+  transition: transform ease-in-out 0.5s;
+  transform: scale(2);
+  margin-left: 25rem;
+}
 
 .form {
   margin: 1rem;
   margin-left: 10rem;
+
 }
 
 .hello {
+  padding-top: 6rem;
   margin-left: 10rem;
 }
 
@@ -23,38 +48,49 @@
   width: 30rem;
 }
 
-textarea.message {
-  inline-size: 150px;
-  overflow-wrap: normal !important;
-  hyphens: manual;
+.message {
   width: 30rem;
   height: 30vh;
+  /* margin-left:2rem ; */
+  /* padding-left:3rem ; */
+}
+
+textarea.message {
+  /* inline-size: 150px; */
+  overflow-wrap: normal !important;
+  /* hyphens: manual; */
+  
+
 }
 
 .submit:hover {
-  color:black;
-box-shadow: 0 6px 40px #15e231, 0 6px 15px #999;
+  color: black;
+  box-shadow: 0 6px 40px #15e231, 0 6px 15px #999;
 }
 
 @media only screen and (max-width: 1000px) {
+
   .form,
   .form input,
-  input.message {
+  .message {
     width: 80%;
     margin: 2rem;
+  }
 
+  .resume {
+    display: none;
   }
 
 }
 
 
 @media only screen and (max-width: 600px) {
+
   .form,
   .form input,
-  input.message {
+  .message {
     width: 95%;
     margin: 0;
-
   }
 
 }
