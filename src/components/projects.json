@@ -2,12 +2,12 @@
   {
     "id": 1,
     "page": "/Project1",
-    "name": "Horiseon",
-    "alt": "Horiseon logo",
-    "image": "https://raw.githubusercontent.com/benjistealth/benji_bootstrap_portfolio/main/assets/images/horiseon2.png",
-    "deployedUrl": "https://benjistealth.github.io/benji_refactoring_challenge_module1/",
-    "repoURL": "https://github.com/benjistealth/benji_refactoring_challenge_module1/",
-    "description": "Challenge - To refactor a broken single page website"
+    "name": "Password Generator",
+    "alt": "password generator loading page screenshot",
+    "image": "https://raw.githubusercontent.com/benjistealth/benji_password_generator/main/assets/images/screenshot1.png",
+    "deployedUrl": "https://benjistealth.github.io/benji_password_generator/",
+    "repoURL": "https://github.com/benjistealth/benji_password_generator",
+    "description": "Challenge - To build a password generator webpage that allows use of different characters"
   },
   {
     "id": 2,

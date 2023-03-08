@@ -14,28 +14,27 @@ function Project1() {
 
   return (
     <div>
-      <h1>Horiseon</h1>
+      <h1>{projects[0].name}</h1>
       {/* back button */}
       <button className="btn btn-back" onClick={GoBack}></button>
       <div className="img-container">
-        <a href={projects[0].deployedUrl}><img className="rounded mx-auto d-block project-img" alt={"Horiseon logo"} src={"https://raw.githubusercontent.com/benjistealth/benji_bootstrap_portfolio/main/assets/images/horiseon2.png"} /></a>
+        <a href={projects[0].deployedUrl}><img className="rounded mx-auto d-block project-img" alt={projects[0].alt} src={projects[0].image} /></a>
       </div>
       <div className="content">
         <ul>
           <li>
-            <strong>Project:</strong> {"Horiseon refactoring challenge"}
+            <strong>Project:</strong> {projects[0].name}
           </li>
           <li>
-            <strong>Description:</strong> {"Challenge - To refactor a broken single page website"}
+            <strong>Description:</strong> {projects[0].description}
           </li>
           <li>
             <strong>Github Repo:</strong> <a href={projects[0].repoURL}><img className="d-block github-img" alt={"Github logo"} src={"https://raw.githubusercontent.com/benjistealth/react_dev_portfolio/main/src/assets/images/Github.png"} /></a>
           </li>
         </ul>
         <p className="description d-none d-lg-block">
-          This challenge was delivered in the form of an existing website with many issues.
-          We had to refactor all of the code, resize images, position logos, icons and text to
-          meet the requirements of an image of the completed site.
+          This challenge was to create a webpage password generator that allowed users to select options of which character types 
+          that they wanted in the password, such as special characters, upper and lower case letters and numbers.
         </p>
       </div>
       <button className="btn btn-back" onClick={GoBack}></button>
