@@ -49,8 +49,49 @@
   padding: 0;
 }
 
+.cardProject {
+  font-size: large;
+  padding-right: 3rem; 
+  margin-right: 5px;
+  margin-left: 0;
+}
+
+.cardDescription {
+  font-size: large;
+  padding-right: 1rem; 
+}
+
+.cardRepo {
+  font-size: large;
+  padding-right: 1rem; 
+}
+
+.cardDeploy {
+  font-size: large;
+  padding-right: 1rem; 
+}
+
+.content > ul > li {
+  display: flex;
+}
+
+.content a {
+  margin-left: 0;
+  padding: 0;
+}
+
+.deployLink {
+
+}
+
+.content .repoLink {
+  padding-left: 1rem; 
+}
+
 .content a:hover {
   color: black;
+  transition: transform ease-in-out 0.25s;
+  transform: scale(1.25);
 }
 
 

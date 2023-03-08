@@ -11,16 +11,16 @@ function ProjCard(props) {
       <div className="content d-none d-lg-block">
         <ul>
           <li>
-            <strong>Project:</strong> {props.name}
+            <strong className="cardProject">Project:</strong> {props.name}
           </li>
           <li>
-            <strong>Description:</strong> {props.description}
+            <strong className="cardDescription">Description:</strong> {props.description}
           </li>
           <li>
-          <strong>Repo URL:</strong> <a className="nav-link" href={props.repoURL}>Click through to Repo</a>
+          <strong className="cardRepo">Repo Link:</strong> <a className="repoLink" href={props.repoURL}>Click to Repo</a>
           </li>
           <li>
-             <strong>Deployment URL:</strong> <a className="nav-link" href={props.deployedUrl}>Click through to Deployment</a>
+             <strong className="cardDeploy">Deployed Link:</strong> <a className="deployLink" href={props.deployedUrl}>Click to Deployment</a>
           </li>
         </ul> 
       </div>
