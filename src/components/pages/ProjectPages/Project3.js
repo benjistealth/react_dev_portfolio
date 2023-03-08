@@ -1,6 +1,5 @@
 import React from "react";
-import { Link, Route, Routes, useNavigate} from 'react-router-dom';
-import Home from '../Home/Home';
+import { useNavigate} from 'react-router-dom';
 import "./ProjectPages.css";
 import projects from "../../projects.json";
 

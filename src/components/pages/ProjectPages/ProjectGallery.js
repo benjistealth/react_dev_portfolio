@@ -18,7 +18,6 @@ function ProjectGallery(props) {
         //where you can click through to the project itself
         //the project page will have some text talking about the project
     }
-    //selectFunction={() => { GoToProject(f.page) }}
 
     return (
         <div className="container">

@@ -1,7 +1,6 @@
 import React from "react";
-import { Link, Route, Routes, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import "./ProjectPages.css";
-import ProjectGallery from "./ProjectGallery";
 import projects from "../../projects.json";
 
 

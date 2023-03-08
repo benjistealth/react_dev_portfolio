@@ -1,8 +1,6 @@
 import React from "react";
 import { useNavigate } from 'react-router-dom';
-// import Home from '../Home/Home';
 import "./ProjectPages.css";
-// import ProjectGallery from "./ProjectGallery";
 import projects from "../../projects.json";
 
 

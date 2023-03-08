@@ -6,20 +6,10 @@
 .avatar-container {
   display: flex;
   flex-direction: row;
-  /* justify-content: center; */
-  /* align-items: center; */
 }
 
 .avatar {
-  /* display: inline-block; */
-  /* background-image: url("../../assets/images/avatar.jpg"); */
   height: 40vh;
-}
-
-.links a {
-  /* display: inline-block;; */
-  /* text-align: center; */
-
 }
 
 .statement {
