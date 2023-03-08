@@ -30,7 +30,7 @@
   <img alt="Screenshot_1" src="./src/assets/images/screenshot1.png">
 
 
-## Screenshot of a project page
+## Screenshot of a project page where you can click through to the project deploymnet and the github repository
 
 
   <img alt="Screenshot_2" src="./src/assets/images/screenshot2.png">
