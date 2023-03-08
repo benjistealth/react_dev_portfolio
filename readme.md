@@ -18,7 +18,7 @@
 
 ## Description
 
-- A personal portfolio generated with react that showcases many new technologies and incorporates a click through to past deployed projects.
+- A personal portfolio generated with react that showcases many new technologies and incorporates a click through to past deployed projects.  Anything that glows on hover is a clickable item.
 
 ## Demo
 
