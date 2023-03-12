@@ -12,11 +12,11 @@ function About() {
       <div className="about" id="about">
         <h3>About Me</h3>
         <p>I am a life long techy, studied Physics, Maths and Electronics in my youth, I have had a fabulously diverse
-          rage of job roles over the years, but 10 years ago, I decided I wanted to work in software and became a software
+          range of job roles over the years, but 10 years ago, I decided I wanted to work in software and became a software
           test engineer, this lead to learning to code in C, C++ and C# as well as core values in TDD and BDD.
           My carrer took a slight diversion from this path as I supported the business by taking over management the IT infrastructure,
-          tool management and endpoint management. Last year I had some life changing health issues and decided I wanted to do more
-          software Development work. I decided to learn Front end web development to compliment my low level experience.
+          tool management and endpoint management. Last year I had some life changing health issues which I overcame and decided I wanted 
+          to do more software Development work. I decided to learn Front end web development to compliment my low level experience.
         </p>
         <p>
           I have been on the EDX Bootcamp which has been hard work, learning technologies, many of which have been completely new
