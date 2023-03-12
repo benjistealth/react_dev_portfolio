@@ -12,7 +12,7 @@ function Home() {
                 <img className="avatar" alt="penguin avatar" src="https://raw.githubusercontent.com/benjistealth/react_dev_portfolio/main/src/assets/images/avatar.jpg"></img>
 
                 <div className="statement-container container">
-                    <p className="statement d-none d-lg-block">I am a seasoned tech professional who has reinvented myself as a front-end developer.
+                    <p className="statement">I am a seasoned tech professional who has reinvented myself as a front-end developer.
                         With years of experience in the tech industry, I bring a wealth of knowledge and expertise to my work.
                     </p>
                     <p className="statement d-none d-lg-block">

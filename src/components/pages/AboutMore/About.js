@@ -8,7 +8,7 @@ function About() {
     <div className="container">
       <h1 className="about-title ">About</h1>
       {/* <!-- added py-5 and px-5 for vertical and horizontal padding to tabbed content --> */}
-      <div className="about-content d-none d-lg-block py-5 px-5">
+      <div className="about-content py-5 px-5">
       <div className="about" id="about">
         <h3>About Me</h3>
         <p>I am a life long techy, studied Physics, Maths and Electronics in my youth, I have had a fabulously diverse
