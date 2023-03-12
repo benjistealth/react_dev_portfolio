@@ -16,7 +16,7 @@ font-weight: bold;
   color:chartreuse;
 }
 
-.nav a:hover {
+.header-link:hover {
   color:black;
   transition: transform ease-in-out 0.25s;
   transform: scale(1.25);
