@@ -92,7 +92,7 @@ class Form extends Component {
               LinkdIn - nouser@linkdin.com I dont have a real Linkdin account yet</p>
              <p> Github - <a className="github-user" href="https://github.com/benjistealth/" target="blank">BenjiStealth</a></p>
             <p> EmailAddress - <a href="mailto:bstealth45@gmail.com">Send me an email</a></p>
-              <p>PhoneNumber - +447974 112 925</p>            
+              <p>PhoneNumber - +44***********</p>            
           </div>
           
           </div>
