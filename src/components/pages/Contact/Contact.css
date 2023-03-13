@@ -24,12 +24,6 @@
   margin-left: 5rem;
 }
 
-.resume:hover {
-  transition: transform ease-in-out 0.5s;
-  transform: scale(2);
-  margin-left: 25rem;
-}
-
 .form {
   margin: 1rem;
   margin-left: 10rem;

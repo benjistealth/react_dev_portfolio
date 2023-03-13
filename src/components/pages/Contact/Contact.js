@@ -45,8 +45,8 @@ class Form extends Component {
       <>
       <h2 className="contact-title">Contact Me</h2>
       <div className="container contact-page-container">
-        
-        <img className="resume" alt="dummy resume" src="https://raw.githubusercontent.com/benjistealth/react_dev_portfolio/main/src/assets/images/dummy_resume.png"></img>
+
+        <iframe className="resume" title="resume.pdf" src="https://drive.google.com/file/d/13X3w4Ghvo7Uhl937sM9zvuPEk9OnyFKW/preview?usp=share_link"></iframe>
       
       <div className="container form-container">
         
@@ -86,15 +86,13 @@ class Form extends Component {
         </form>
         <div className="contact d-none d-lg-block" id="contact">
             <h3>Contact Details</h3>
-            <p>There are no real contact details in here, because, guess what, I dont want to be contacted by anyone.
-              Here are some dummy deets just for completeness.  Any actual contact should be made via Github
-              issues on a per repo basis for tracking purposes.</p>
+            <p>Any contact relating to individual repositories 
+              should be made via Github issues on a per repo basis for tracking purposes.</p>
             <p>
-              LinkdIn - nouser@linkdin.com I dont have a real Linkdin account yet
-              Github - nouser@github.com - note that if you are a sleuth, you can find this from my repos.
-              EmailAddress - nouser@email.com
-              PhoneNumber - +447969 69 69 69 (yeah, I wish lol)
-            </p>
+              LinkdIn - nouser@linkdin.com I dont have a real Linkdin account yet</p>
+             <p> Github - <a className="github-user" href="https://github.com/benjistealth/" target="blank">BenjiStealth</a></p>
+            <p> EmailAddress - <a href="mailto:bstealth45@gmail.com">Send me an email</a></p>
+              <p>PhoneNumber - +447974 112 925</p>            
           </div>
           
           </div>
